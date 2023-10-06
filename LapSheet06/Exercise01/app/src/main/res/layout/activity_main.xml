@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--    The image fragment -->
+    <fragment
+        android:id="@+id/image_fragment"
+        android:name="com.example.exercise01_staticfragments.ImageFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        tools:ignore="Suspicious0dp" />
+
+    <fragment
+        android:id="@+id/text_fragment"
+        android:name="com.example.exercise01_staticfragments.TextFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="Suspicious0dp" />
+
+
+</LinearLayout>
